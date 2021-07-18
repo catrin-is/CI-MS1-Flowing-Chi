@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/*------------------------------------------------------------------------------Colours */
+
 .bg-color-name-header {
     background-color: #5E7A68;
 }
+
+
+/*------------------------------------------------------------------------------Heading */
 
 header {
     margin: 0;
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     background-color: #FBD2D7;
     padding: 10px;
@@ -22,15 +27,22 @@ header {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 48px;
-    margin: 25px 25px 25px 25px;
+    margin: 30px 30px 30px 30px;
     color: #5f717e;
 }
 
+.nav-bar {
+    text-align: right;
+    padding: 75px;
+    margin-left: 40%;
+}
 
+.menuitem {
+    margin-left: 40px;
+}
 
 li a {
-    display: inline block;
-    float: left;
+    float: right;
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 36px;
@@ -39,9 +51,33 @@ li a {
     text-decoration: none;
     padding: 5px;
 }
+/*----------------need to add hoover element to the menu bar and style this with a light grey when hovered over.*/
+/*------------------------------------------------------------------------------Footer */
 
+footer {
+    background-color: #5E7A68;
+    min-height: 150px;
+    margin: 0;
+}
 
+.social-media i {
+    padding-bottom: 15px;
+    margin-left: 40px;
+   
 
+.social-media li a i {
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    left: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #8EA696;
+}
+
+/*--------------------------------- style social media icons*/
  
 
 
