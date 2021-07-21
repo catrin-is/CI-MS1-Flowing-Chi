@@ -19,8 +19,7 @@ header {
     border-radius: 50%;
     background-color: #FBD2D7;
     padding: 10px;
-    margin-left: 5px;
-    margin-top: 10px;
+    margin: 10px 0 10px 5px;
 }
     
 
@@ -34,13 +33,11 @@ header {
 
 .nav-bar {
     text-align: right;
-    padding: 60px;
+    padding: 20px 5px 50px 30px;
     margin-left: 40%;
 }
 
-.menuitem {
-    margin-left: 30px;
-}
+
 
 li a {
     float: right;
@@ -60,13 +57,100 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
+    width: 100%; 
     transition: all.5s ease-in-out;
-    moz- transition: all.5s ease-in-out;
-    webkit- transition: all.5s ease-in-out;
+    -moz-transition: all.5s ease-in-out;
+    -webkit-transition: all.5s ease-in-out;     
 }
-    
+ 
+.intro {
+    background-color:#5f717e;
+    margin: 20px 10px 20px 10px;    
 }
-    
+
+h2 {
+   text-transform: uppercase; 
+   text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   color: #fff;
+   padding: 10px;
+}
+
+p {
+    text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 200;
+   font-size: 16px;
+   color: #fff;
+   padding: 10px;
+}
+
+.health-benefits-title-bg {
+    background-color: #FBD2D7;
+    margin: 20px 90px 20px 90px; 
+}
+
+.health-benefits-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5f717e;
+    margin: 10px 500px 10px 500px;
+    text-transform: uppercase;
+}
+
+.health-benefits-position {
+    padding-left: 0;
+    list-style: none;
+    margin-left: 260px;
+}
+
+ .health-benefit-1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #5f717e;
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+}   
+
+.health-benefit-2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #5f717e;
+    padding: 10px;
+    margin: 20px 10px 20px 50px;
+}  
+
+.health-benefit-3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #5f717e;
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+}   
+
+.health-benefit-4 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #5f717e;
+    padding: 10px;
+    margin: 20px 10px 20px 50px;
+} 
+
+.hb-list {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: #fff;
+    margin: 50px 5px 50px 5px;
+}
 /*------------------------------------------------------------------------------Footer */
 
 footer {
@@ -86,5 +170,6 @@ i {
     padding: 50px 50px 50px 50px;
     margin-left: 300px;
 }
+
    
  /*--------------------------------- style social media icons*/
