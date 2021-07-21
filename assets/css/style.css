@@ -20,6 +20,7 @@ header {
     background-color: #FBD2D7;
     padding: 10px;
     margin-left: 5px;
+    margin-top: 10px;
 }
     
 
@@ -33,12 +34,12 @@ header {
 
 .nav-bar {
     text-align: right;
-    padding: 75px;
+    padding: 60px;
     margin-left: 40%;
 }
 
 .menuitem {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 li a {
@@ -52,6 +53,20 @@ li a {
     padding: 5px;
 }
 /*----------------need to add hoover element to the menu bar and style this with a light grey when hovered over.*/
+
+#hero-image {
+    background: url("../css/images/coast-line.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    transition: all.5s ease-in-out;
+    moz- transition: all.5s ease-in-out;
+    webkit- transition: all.5s ease-in-out;
+}
+    
+}
+    
 /*------------------------------------------------------------------------------Footer */
 
 footer {
@@ -60,25 +75,16 @@ footer {
     margin: 0;
 }
 
-.social-media i {
-    padding-bottom: 15px;
-    margin-left: 40px;
-   
-
-.social-media li a i {
-    width: 50px;
-    height: 50px;
-    padding: 15px 0;
-    border-radius: 50%;
-    font-size: 20px;
-    left: 10px;
-    text-align: center;
-    color: #fff;
-    background-color: #8EA696;
+i {
+    font-family: "FontAwesome";
+    padding: 15px;
+    margin-left: 60px;
+    color: #f5f5f5;
 }
 
-/*--------------------------------- style social media icons*/
- 
-
-
-
+.social-media {
+    padding: 50px 50px 50px 50px;
+    margin-left: 300px;
+}
+   
+ /*--------------------------------- style social media icons*/
