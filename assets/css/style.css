@@ -201,9 +201,36 @@ a:hover {
     margin-left: 300px;
 }
 
+/*---------------------------------------------------------------- about us*/
+
+.about-us-img img{
+    vertical-align: middle;
+    border-style: none;
+    padding: 20px 10px;
+}
+
+.about-us {
+    background-color:#5f717e;
+    margin: 20px 10px 20px 10px;   
+}
+
+.useful-links {
+    background-color:#5f717e;
+    margin: 20px 10px 20px 10px; 
+}
+
+.useful-links a {
+    color: #fff;
+}
+
+.useful-links a:hover {
+    color:  #B3BEB7;
+}
+
+
 /*---------------------------------------------------------------- gallery*/
 
-img {
+.resize {
     vertical-align: middle;
     border-style: none;
     padding: 50px;
