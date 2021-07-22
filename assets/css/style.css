@@ -201,5 +201,41 @@ a:hover {
     margin-left: 300px;
 }
 
-   
- /*--------------------------------- style social media icons*/
+/*---------------------------------------------------------------- gallery*/
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    padding: 50px;
+}
+
+#photos {
+    clear: both;
+    line-height: 10px;
+    column-count: 2;
+    column-gap: 10px;
+}
+
+#photos img {
+    width: 100%;
+}
+ 
+ /*--------------------------------- Media Queries*/
+
+ @media screen and (max-width: 600px) {
+    social-media {
+      padding: 50px 50px 50px 50px;
+      margin-left: 30px;
+    }
+
+    i {
+        margin-left: 20px;
+    }
+ }
+
+ @media screen and (min-width: 769px) {
+    #photos {
+        column-count: 3;
+    }
+     
+ }
