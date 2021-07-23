@@ -2,14 +2,13 @@
 
 /*------------------------------------------------------------------------------Colours */
 
-.bg-color-name-header {
-    background-color: #5E7A68;
-}
+
 
 
 /*------------------------------------------------------------------------------Heading */
 
 header {
+    background-color: #5e7a6a;
     margin: 0;
 }
 /*------------------------------------------------------------------------------test */
@@ -174,6 +173,18 @@ footer {
     margin: 0;
 }
 
+  .flex-container > #social-media {
+      text-align: center;
+      padding: 50px 50px 50px 50px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+  }
+
+  #social-media li {
+      list-style-type: none;
+  }
+  
 i {
     font-family: "FontAwesome";
     text-decoration: none;
@@ -196,10 +207,7 @@ a:hover {
     text-decoration: none;
 }
 
-.social-media {
-    padding: 50px 50px 50px 50px;
-    margin-left: 300px;
-}
+
 
 /*---------------------------------------------------------------- about us*/
 
