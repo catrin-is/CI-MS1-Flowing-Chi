@@ -101,70 +101,45 @@ p {
    padding: 10px;
 }
 
-.health-benefits-title-bg {
+
+div#health-benefits-bg {
+    display: flex;
     background-color: #FBD2D7;
-    margin: 20px 90px 20px 90px; 
+    margin-bottom: 25px;
 }
 
-.health-benefits-title {
+div .health-benefits-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: row wrap;
+}
+
+.health-benefits-title h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #5f717e;
-    margin: 10px 500px 10px 500px;
     text-transform: uppercase;
 }
 
-.health-benefits-position {
-    padding-left: 0;
-    list-style: none;
-    margin-left: 260px;
+div .health-benefit {
+    display: flex;
+    justify-content: space-around;
+    flex: row wrap;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #5f717e;
+    margin: 15px;
 }
 
- .health-benefit-1 {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #5f717e;
-    padding: 10px;
-    margin: 20px 10px 20px 10px;
-}   
-
-.health-benefit-2 {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #5f717e;
-    padding: 10px;
-    margin: 20px 10px 20px 50px;
-}  
-
-.health-benefit-3 {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #5f717e;
-    padding: 10px;
-    margin: 20px 10px 20px 10px;
-}   
-
-.health-benefit-4 {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #5f717e;
-    padding: 10px;
-    margin: 20px 10px 20px 50px;
-} 
-
-.hb-list {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 16px;
-    color: #fff;
-    margin: 50px 5px 50px 5px;
+p.hb-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 /*------------------------------------------------------------------------------Footer */
 
 footer {
@@ -256,6 +231,14 @@ a:hover {
 }
  
  /*--------------------------------- Media Queries*/
+ @media (max-width: 800px) {
+    div#health-benefits-bg {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
 
  @media screen and (max-width: 600px) {
     social-media {
