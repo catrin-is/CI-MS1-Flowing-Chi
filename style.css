@@ -228,8 +228,8 @@ a:hover {
 #photos {
     clear: both;
     line-height: 10px;
-    column-count: 2;
     column-gap: 10px;
+    column-count: 1;
 }
 
 #photos img {
@@ -256,14 +256,16 @@ a:hover {
     }
  }
 
- @media screen and (min-width: 769px) {
-    #photos {
-        column-count: 3;
+/*--------------------------------Gallery images*/
+
+ @media screen and (min-width: 481px) {
+    section #photos {
+        column-count: 1;
     }    
  }
 
- @media screen and (max-width: 480px) {
+ @media screen and (min-width: 769px) {
     #photos {
-        column-count: 1;
+        column-count: 3;
     }    
  }
