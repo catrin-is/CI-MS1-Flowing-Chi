@@ -222,14 +222,14 @@ img.responsive {
 .resize {
     vertical-align: middle;
     border-style: none;
-    padding: 50px;
 }
 
 #photos {
     clear: both;
     line-height: 10px;
     column-count: 1;
-    column-gap: 10px;
+    column-gap: 0;
+    margin: 30px 20px 50px 20px;
 }
 
 #photos img {
@@ -256,6 +256,8 @@ img.responsive {
     }
  }
 
+ /*-------------------ABOUT US IMAGE*/
+
  @media screen and (min-width: 481px) {
     .about-us-img img {
         padding: 20px 80px;
@@ -271,8 +273,3 @@ img.responsive {
      }
  }
 
- @media screen and (min-width: 769px) {
-    #photos {
-        column-count: 3;
-    }   
- }
