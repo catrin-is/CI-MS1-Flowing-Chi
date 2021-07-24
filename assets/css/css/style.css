@@ -186,10 +186,15 @@ a:hover {
 
 /*---------------------------------------------------------------- about us*/
 
-.about-us-img img{
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-img img {
     vertical-align: middle;
     border-style: none;
-    padding: 20px 10px;
+    padding: 0;
 }
 
 .about-us {
@@ -199,7 +204,8 @@ a:hover {
 
 .useful-links {
     background-color:#5f717e;
-    margin: 20px 10px 20px 10px; 
+    width: 100%;
+    margin: 10px;
 }
 
 .useful-links a {
@@ -250,6 +256,13 @@ a:hover {
     }
  }
 
+ @media screen and (min-width: 481px) {
+    .about-us-img img {
+        padding: 20px 80px;
+    }
+
+ }
+ 
  /*-------------------GALLERY IMAGES*/
  
  @media screen and (min-width: 481px) {
