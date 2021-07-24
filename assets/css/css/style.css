@@ -250,6 +250,14 @@ a:hover {
     }
  }
 
+ /*-------------------GALLERY IMAGES*/
+ 
+ @media screen and (min-width: 481px) {
+     #photos {
+         column-count: 2;
+     }
+ }
+
  @media screen and (min-width: 769px) {
     #photos {
         column-count: 3;
