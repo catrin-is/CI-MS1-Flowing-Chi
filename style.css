@@ -259,13 +259,11 @@ a:hover {
  @media screen and (min-width: 769px) {
     #photos {
         column-count: 3;
-    }
-     
+    }    
  }
 
  @media screen and (max-width: 480px) {
     #photos {
         column-count: 1;
-    }
-     
+    }    
  }
