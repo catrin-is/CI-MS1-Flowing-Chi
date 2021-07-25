@@ -89,7 +89,6 @@ div.flex-container {
 /*----------------need to add hoover element to the menu bar and style this with a light grey when hovered over.*/
 
 #hero-image {
-    background: url("../css/images/coast-line.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,6 +129,7 @@ div#health-benefits-bg {
     display: flex;
     background-color: #FBD2D7;
     margin-bottom: 25px;
+    justify-content: center;
 }
 
 div .health-benefits-title {
@@ -194,13 +194,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
   .flex-container > #social-media {
       text-align: center;
       padding: 50px 50px 50px 50px;
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       justify-content: space-around;
   }
 
@@ -283,8 +284,114 @@ img.responsive {
 #photos img {
     width: 100%;
 }
- 
+
+/*---------------------------------------------------------------- Classes*/
+/*-------------------------------------------- Video*/
+
+div#tai-chi-video.flex-container {
+    margin: 10px 0;
+    background-color: #B3BEB7;
+}
+
+div.demo-video {
+    padding: 20px;
+}
+
+div>h4 {
+    padding: 40px;
+    text-align: center;
+   font-family: "Roboto", sans-serif;
+   font-weight: 200;
+   font-size: 36px;
+   color: #4d5b66;
+}
+
+ /*--------------------------------- Contact us*/
+
+.contact-us-img img {
+    vertical-align: middle;
+    border-style: none;
+    padding: 0;
+}
+
+/*--------------------------------- Contact us form - code taken from w3schools.com and maps from google maps*/
+
+h3 {
+    padding: 40px;
+    text-align: left;
+   font-family: "Roboto", sans-serif;
+   font-weight: 200;
+   font-size: 36px;
+   color: #4d5b66;
+   margin-left: 50px;
+}
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FBD2D7;
+    color: #5f717e;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #B3BEB7;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #5f717e;
+    padding: 20px;
+    max-width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  iframe {
+      margin-right: 80px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  h3.contact-form {
+      text-transform: uppercase;
+  }
+
+  h3.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  p#email-contact.hb-text {
+      margin-left: 10px;
+  }
+
  /*--------------------------------- Media Queries*/
+
+ @media (max-width: 414px) {
+    #hero-image {
+      display: none;
+    }
+  }
 
  @media (max-width: 800px) {
     div#health-benefits-bg {
@@ -317,7 +424,6 @@ img.responsive {
     .about-us-img img {
         padding: 20px 80px;
     }
-
  }
  
  /*-------------------GALLERY IMAGES*/
@@ -327,3 +433,35 @@ img.responsive {
          column-count: 2;
      }
  }
+
+ /*-------------------CLASSES - VIDEO and TEXT*/
+
+ @media (max-width: 414px) {
+    div.demo-video {
+      display: none;
+    }
+  }
+
+ @media (max-width: 800px) {
+    div#tai-chi-video.flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /*-------------------Contact Us*/
+
+  @media screen and (min-width: 481px) {
+    .contact-us-img img {
+        padding: 20px 80px;
+    }
+ }
+
+ @media screen and (max-width: 800px) {
+    .flex-container-contact {
+        flex-direction: column;
+    }
+ }
+
+
+ 

@@ -10,6 +10,7 @@
     <title>Flowing Chi</title>
 </head>
 <body>
+    <!---------------------------------------------------------------LOGO AND NAVBAR - need to put -->
     <header class="bg-color-name-header-footer">
         <div class="flex-container">
             <div class="logo">
@@ -21,72 +22,58 @@
                 <a href="index.html">Home</a>
                 <a href="about-us.html">About Us</a>
                 <a href="gallery.html">Gallery</a>
-                <a class="active" href="classes.html">Classes</a>
-                <a href="contact-us.html">Contact Us</a>
+                <a href="classes.html">Classes</a>
+                <a class="active" href="contact-us.html">Contact Us</a>
                </div>
            </div>
           </div>
     </header>
-    <!---------------------------------------------------------------------------------------------------------------need to add video here-->
+     <!---------------Image------>
+    <section class="contact-us-img">
+        <img src="assets/css/images/pexels-josh-sorenson-1080876.jpg" class="responsive" id="" alt="">
+    </section>
+    </section>
+     <!-----------------Contact form - code taken from w3schoola.com
+        lcation map---->
     <section>
-        <div class="flex-container" id="tai-chi-video">
-            <div class="demo-video">
-                 <iframe src="https://www.youtube.com/embed/ocHe6dbR4ig" 
-                 width="600" height="300" 
-                 title="Wu Style Tai Chi Short Form Demonstrated by Bruce Frantzis" frameborder="0" 
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                 allowfullscreen></iframe>
-            </div> 
-            <div>
-                <h4>Tai chi (Taiji) is the one exercise that can universally help solve our growing health crisis.
-                    Tai Chi’s gentle strength moves us closer to feeling more alive, 
-                    and gives us the ability to realize our greater human potential.</h4>
+        <h3 class="contact-form">Contact Form</h3>
+        <div class="flex-container-contact">
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.958762843845!2d-4.059923334196713!3d52.40742357979304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486f76478f872e95%3A0x75060010b499cd86!2sLlanbadarn%20Fawr%2C%20Aberystwyth%20SY23%203SL!5e0!3m2!1sen!2suk!4v1627192868159!5m2!1sen!2suk" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
-  <!--------------------------------------------------------------------------------need to change direction of writing to horizontal-->
-   <section>
-       <div class="flex-container" id="health-benefits-bg">
-           <div class="health-benefits-title">
-            <h2>Classes</h2>
-           </div>
-           <div class="health-benefit">
-              <p class="hb-text">Day: Tuesday</p>
-              <p class="hb-text">Location: Tan-y-Bwlch Beach</p>
-              <p class="hb-text">Time: 06:45 - 07:30</p>
-           </div>
-           <div class="health-benefit">
-            <p class="hb-text">Day: Thursday</p>
-            <p class="hb-text">Location: Aberystwyth Castle</p>
-            <p class="hb-text">Time: 10:00 - 10:45</p>
-           </div>
-           <div class="health-benefit">
-            <p class="hb-text">Day: Saturday</p>
-            <p class="hb-text">Location: Tan-y-Bwlch Beach</p>
-            <p class="hb-text">Time: 14:00 - 15:00</p>
-           </div>
-           <div class="health-benefit">
-            <p class="hb-text">Day: Sunday</p>
-            <p class="hb-text">Location: Aberystwyth Castle</p>
-            <p class="hb-text">Time: 11:00 - 12:00</p>
-           </div>
-       </div>
-    </section>
+     <!---------------email and phone number. https://goo.gl/maps/8TpfdPmoFTvFSJyQ8------>
     <section>
         <div class="flex-container" id="health-benefits-bg">
-            <div class="health-benefits-title">
-             <h2>Prices</h2>
+             <h3 class="contact-details">Our Contact Details</h3>
+             <div class="health-benefit" id="email-contact">
+                 <p class="hb-text" id="email-contact">Email:  contactus@flowingchi.com</p>
+                 <p class="hb-text">
+                      
+                 </p>
             </div>
             <div class="health-benefit">
-               <p class="hb-text">Outdoor Classes: £4.50</p>
+                  <p class="hb-text" id="phone-contact">Phone Number:  07324669551</p>
+                  <p class="hb-text">
+                     
+                  </p>
             </div>
-            <div class="health-benefit">
-                <p class="hb-text">Online Classes: £3.50</p>
-             </div>
         </div>
     </section>
-
-    <footer class="bg-color-name-header-footer">
+   
+   <!---------------FOOTER------>
+   <footer class="bg-color-name-header-footer">
         <div class="flex-container" id="flex-footer">
             <ul id="social-media">
                 <li>
