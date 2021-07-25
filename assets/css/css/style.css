@@ -13,7 +13,11 @@ header {
 }
 /*------------------------------------------------------------------------------test */
 
-.dropbtn {
+div.flex-container {
+    display: flex;
+}
+
+.logo {
     background-color:#FBD2D7;
     color: #5f717e;
     width: 175px;
@@ -23,11 +27,30 @@ header {
     font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 48px;
-    margin: 30px 30px 30px 30px;
+    margin: 30px 10px 30px 30px;
     border: none;
   }
 
+  h1#logo-text {
+    font-weight: 200;
+    margin: 20px;
+}
 
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    background-color:#B3BEB7;
+    color: #5f717e;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    margin: 60px 30px 30px 10px;
+    border: none;
+}
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
@@ -60,7 +83,7 @@ header {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #B3BEB7;}
+  button#menu.dropbtn:hover {background-color: #FBD2D7;}
 
   /*------------------------------------------------------------------------------test */
 /*----------------need to add hoover element to the menu bar and style this with a light grey when hovered over.*/
@@ -100,6 +123,7 @@ p {
    color: #fff;
    padding: 10px;
 }
+
 
 
 div#health-benefits-bg {
