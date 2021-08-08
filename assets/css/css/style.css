@@ -140,7 +140,7 @@ div .health-benefits-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: row wrap;
+    flex-flow: row wrap;
 }
 
 .health-benefits-title h2 {
@@ -154,7 +154,7 @@ div .health-benefits-title {
 div .health-benefit {
     display: flex;
     justify-content: space-around;
-    flex: row wrap;
+    flex-flow: row wrap;
     width: 250px;
     height: 250px;
     border-radius: 50%;
