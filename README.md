@@ -30,8 +30,6 @@ The website will be designed for Thai Chi instructor Florence Ryder to showcase 
 
 ## Features
 
-<![endif]-->
-
 **The header:**
 
 Minimalist design consist of a logo and a menu drop down button to allow users to navigate the site.
