@@ -397,17 +397,13 @@ input[type=text], select, textarea {
       margin-left: 10px;
   }
 
-  .map-responsive {
+  iframe.map-responsive {
     overflow: hidden;
-    padding-bottom: 40%;
+    width: 95%;
+    height: 95%;
+    padding-bottom: 20%;
     position: relative;
-    height: 0;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    position: absolute;
+    margin-left: -30px;
 }
 
  /*--------------------------------- Media Queries*/
@@ -489,10 +485,13 @@ input[type=text], select, textarea {
  }
 
  @media screen and (max-width: 768px) {
-    .map-responsive {
-        margin: 10px 10px 10px 30px;
-    }
+iframe.map-responsive {
+    overflow: hidden;
+    width: 95%;
+    height: 95%;
+    padding-bottom: 20%;
+    margin: 70px 15px 0px 15px;
+    position: relative;
+}
  }
-
-
  
