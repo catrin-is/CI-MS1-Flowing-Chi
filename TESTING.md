@@ -17,7 +17,7 @@ No errors or warnings shown
 1 error was detected, I had left an empty ID attribute on the img element. 
 This was rectified by the removal of the ID attribute. 
 Warning message was also detected due to the section wrapping the img element did not have a h2-h6 element. 
-This was rectified by changed the section in question to a div element instead. 
+This was rectified by changing the section in question to a div element instead. 
 
 As shown below when re-entered the code into the validator no errors or warning messages are shown.
 
@@ -35,7 +35,7 @@ No errors or warnings shown
 
 2 error messages were detected 
 
- 1. The frameborder attribute is obsolete - this was rectified by the changing to style attribute with a value of border:none
+ 1. The frameborder attribute is obsolete - this was rectified by changing the style attribute with a value of border:none
  2. Duplicate *ID* attribute were detected - this was rectified by changing the ID to a Class attribute
  
  As shown below when re-entered the code into the validator no errors or warning messages are shown.
@@ -90,7 +90,7 @@ The user can easily navigate their way through the website by using the drop-dow
 
 Users can view testimonial from past customers on the home page 
  
- **As a potential or returning customer I want an easy an accessible way of viewing contact information**
+ **As a potential or returning customer I want an easy and accessible way of viewing contact information**
 
 Contact information can be viewed in the contact-us page, this is accessible through the drop-down menu
 
@@ -125,13 +125,13 @@ Responsiveness of the website was tested on [Am I Responsive](http://ami.respons
    on all media screens. The main reason to opt for the drop down menu
    on larger screens was simple and clean design on the header. 
    
-   Hero image did not scale down the quality of the image on mobile
+   Hero image did not scale down, the quality of the image on mobile
    devices was poor, to solve this added a media query to hide the image
    
-   Had the same issue with the demonstration video so decided to ad a
+   Had the same issue with the demonstration video so decided to add a
    media query to also hide on mobile devices 
    
-   When browsing the contact us page on a mobile devise the map was too
+   When browsing the contact us page on a mobile device the map was too
    big and this created a white space on the right hand side of the
    screen. This was solved by changing the width and height value from
    px to % to allow for flexibility across all screens. Media query was

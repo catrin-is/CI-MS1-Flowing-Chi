@@ -4,7 +4,9 @@
 
 ![Responsive design](https://i.ibb.co/vsrQJWh/Screenshot-2021-08-08-at-12-14-51.png)
 
-Flowing Chi is a fictional Tai Chi studio based in west Wales. Instructor and owner Florence Ryder wanted to offer an alternative way of dealing with stress and mental health. Heightened by the recent pandemic within the local community.
+Flowing Chi is a fictional Tai Chi studio based in west Wales. Instructor and owner Florence Ryder wanted to offer an alternative way of dealing with stress and mental health, Heightened by the recent pandemic within the local community.
+
+you can view the deployed website [here](https://catrin-is.github.io/CI-MS1-Flowing-Chi)
 
 
 
@@ -13,7 +15,7 @@ Flowing Chi is a fictional Tai Chi studio based in west Wales. Instructor and ow
 
 **Project Goals**
 
-The website will be designed for Thai Chi instructor Florence Ryder to showcase the benefits of ancient martial arts. The focus of the project is to inform users without overwhelming the reader with too much information, this will be achieved through a simple and clean design that promotes health and wellbeing.
+The website will be designed for Tai Chi instructor Florence Ryder to showcase the benefits of ancient martial arts. The focus of the project is to inform users without overwhelming the reader with too much information, this will be achieved through a simple and clean design that promotes health and wellbeing.
 
 **User Story**
 
@@ -27,7 +29,7 @@ The website will be designed for Thai Chi instructor Florence Ryder to showcase 
  
  - As a potential customer I want to read reviews from others that have used the service
  
- - As a potential or returning customer I want an easy an accessible way of viewing contact information
+ - As a potential or returning customer I want an easy and accessible way of viewing contact information
 
 ## Wireframe
 
@@ -47,7 +49,7 @@ Social media icons to allow users to visit social media sites. As this is a fict
 
 Hero image - is a coastal landscape, promoting wellbeing and a sense of calm for the user.
 
-Description - Underneath the hero image is a brief description of what Thai Chi and Qigong is
+Description - Underneath the hero image is a brief description of what Tai Chi and Qigong is
 
 Health Benefits – Circularity is a very important part of Tai Chi movements, I have decided to incorporate circular background throughout the design of the website for this reason.
 4 main benefits are displayed here 
@@ -68,7 +70,7 @@ The images displayed on this page -Qigong moves demonstrated by Flo at Tanybwlch
 
 **Classes.html**
 
-Video link to Bruce Frantiz, expert instructor, demonstrating some Thai chi. This is accompanied by a brief description taken from Bruce Frantiz's website
+Video link to Bruce Frantiz, expert instructor, demonstrating some Tai chi. This is accompanied by a brief description taken from Bruce Frantiz's website
 
 Class times and locations are displayed mimicking the circles on the home page to create consistency throughout the site
 
@@ -161,6 +163,6 @@ This project is hosted in GitHub Pages
  - Contact form on contact-us.html was copied from [w3schools](https://www.w3schools.com/)
 
 ## Acknowledgments
-Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for support and guidence 
-Sandra Isaac for helping with the content 
-Also a thank you to [Code Institute](https://codeinstitute.net/) slack channel, tutors and student care team
+Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for support and guidance.
+Sandra Isaac for helping with the content.
+Also a thank you to [Code Institute](https://codeinstitute.net/) slack channel, tutors and student care team.
